@@ -1,0 +1,117 @@
+
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #8839aa;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#container {
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+  width: 650px;
+  box-shadow: 14px 14px 45px -12px rgba(0,0,0,0.52); 
+}
+
+#btncontainer{
+margin-left: 15%;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+
+
+.list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.num {
+  cursor: pointer;
+  color: #808080;
+  width: 25px;
+  background-color: ghostwhite;
+  border-radius: 25px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 10px;
+}
+.step-unlock {
+  font-weight: 500;
+  font-size: large;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width: 100%;
+  color: black;
+}
+.step-unlock:hover{
+  color: rgb(95, 95, 95);
+}
+.steps {
+  font-weight: 500;
+  font-size: large;
+  letter-spacing: 2px;
+  width: 100%;
+  cursor: pointer;
+  color: rgb(63, 63, 63);
+}
+.steps:hover{
+  color: rgb(0, 0, 0);
+}
+.num-unlock {
+  cursor: pointer;
+  width: 25px;
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 10px;
+}
+
+
+
+
+
+
+
+.bttn {
+  background-color: #F1F1F1;
+  border-radius: 5px;
+  padding: 1%;
+  border: none;
+
+}
+
+#back {
+  padding: 20px;
+  cursor: pointer;
+}
+
+#submit {
+  cursor: pointer;
+  padding: 20px;
+  margin-left: 5px;
+}
+
+#desc{
+  
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30%;
+  margin-bottom: 20%;
+}
